@@ -1,0 +1,82 @@
+*
+{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,body
+{
+    background-color: antiquewhite;
+    height: 100vh;
+    width: 100vw;
+}
+
+#message
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(38, 38, 38);
+    height: 25%;
+    width: 100vw;
+}
+
+#playground
+{
+    background-color: rgb(255, 204, 167);
+    height: 75%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cell-card
+{
+    background-color: rgb(91, 91, 91);
+    height: 80%;
+    width: 40%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.cell
+{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+img
+{
+    height: 25%;
+    width: 25%;
+}
+
+img[src=""] 
+{
+    visibility: hidden;
+}
+
+h1,h3
+{
+    color: white;
+    margin: 2%;
+}
+
+
+@media (max-width: 900px)
+{
+ #cell-card
+{
+    height: 80%;
+    width: 80%;
+}
+}
