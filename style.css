@@ -23,7 +23,7 @@ html,body
 
 #playground
 {
-    background-color: rgb(255, 204, 167);
+    background-color: rgb(170, 255, 167);
     height: 75%;
     width: 100vw;
     display: flex;
@@ -65,7 +65,7 @@ img[src=""]
     visibility: hidden;
 }
 
-h1,h3
+h1
 {
     color: white;
     margin: 2%;
