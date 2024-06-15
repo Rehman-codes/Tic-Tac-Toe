@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="fav.png" type="image/x-icon">
+    <script src="helper.js" type="module"></script>
+    <script src="logic.js" type="module"></script>
+    <script>
+        // Preload images
+        const images = ["zero.png", "cross.png"];
+        images.forEach(src => {
+            const img = new Image(); //creates a new HTML img  eleemnt
+            img.src = src;
+        });
+    </script>
     <title>Tic Tac Toe</title>
 </head>
 <body>
@@ -59,7 +69,5 @@
         </section>
     
     </div>
-
-<script type="module" src="logic.js"></script>
 </body>
 </html>

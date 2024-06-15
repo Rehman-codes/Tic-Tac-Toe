@@ -1,12 +1,10 @@
-// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< SCENARIOS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-const createScenario = (id1, id2, id3, state) => {
+const createScenario = (val1, val2, val3, state) => {
     return {
-        id1,
+        id1: val1,
         boxState1: state,
-        id2,
+        id2: val2,
         boxState2: state,
-        id3,
+        id3: val3,
         boxState3: state
     };
 };
